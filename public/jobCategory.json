@@ -1,0 +1,30 @@
+{
+    "jobCategories": [
+      {
+        "id": 1,
+        "icon": "https://i.ibb.co/Hdxvy6M/social-media.png",
+        "name": "Information Technology",
+        "vacancyAvailable": 100
+      },
+      {
+        "id": 2,
+        "icon": "https://i.ibb.co/RPKJ8TF/business1.png",
+        "name": "Business and Finance",
+        "vacancyAvailable": 50
+      },
+      {
+        "id": 3,
+        "icon": "https://i.ibb.co/q9bsfCx/chip1.png",
+        "name": "Engineering",
+        "vacancyAvailable": 150
+      },
+      {
+        "id": 4,
+        "icon": "https://i.ibb.co/Fh5C2Tw/accounts1.png",
+        "name": "Healthcare",
+        "vacancyAvailable": 200
+      }
+    ]
+  }
+  
+  
