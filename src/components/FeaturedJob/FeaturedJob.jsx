@@ -28,7 +28,7 @@ console.log(jobs)
            <h2 className='text-[#1A1919] text-5xl font-bold mb-4'>Featured Jobs</h2>
                 <p className='text-base text-[#757575] mb-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
            </div>
-         <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6'>
+         <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 my-12'>
             {
              jobs.map(job => <Job
              key ={job.id}

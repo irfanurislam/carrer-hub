@@ -10,8 +10,8 @@ const Job = ({ job,handleAddToCart }) => {
     const {id,image,brand,job_title,job_type,job_time,job_salary,location} = job
   console.log(job);
   return (
-    <div className="my-8">
-      <div className="card bg-base-100 shadow-xl border border-red-500">
+    <div className="">
+      <div className="card bg-base-100 h-full shadow-xl border border-gray-400">
         <div className="px-8 pt-10">
           <img
             src={image}
