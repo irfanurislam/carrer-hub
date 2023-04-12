@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="px-12">
+    <nav className="md:px-12">
       <div className="navbar bg-base-100 py-10">
         <div className="navbar-start">
           <div className="dropdown">
@@ -56,7 +56,7 @@ const Header = () => {
         <div className="navbar-end">
        
         <Link to="/applyjob">
-            <a className="btn btn_all">Start Applying</a>
+            <a className="btn btn_all  text-xs md:text-base"> Start Applying</a>
            </Link>
         </div>
       </div>

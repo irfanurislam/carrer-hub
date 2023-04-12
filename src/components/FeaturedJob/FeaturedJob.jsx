@@ -25,7 +25,7 @@ console.log(jobs)
     return (
         <div className='my-32'>
            <div className='text-center'>
-           <h2 className='text-[#1A1919] text-5xl font-bold mb-4'>Featured Jobs</h2>
+           <h2 className='text-[#1A1919] text-2xl md:text-5xl font-bold mb-4'>Featured Jobs</h2>
                 <p className='text-base text-[#757575] mb-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
            </div>
          <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-6 my-12'>
@@ -38,7 +38,7 @@ console.log(jobs)
          </div>
           
           <div className={`flex items-center justify-center ${jobs.length === 6 && 'hidden'}`}>
-          <button onClick={() => setJobs(jobsAll)} className='btn btn_all text-xl px-7 text-center'>See All Jobs</button>
+          <button onClick={() => setJobs(jobsAll)} className='btn btn_all text-lg text-center'>See All Jobs</button>
           </div>
         </div>
     );
