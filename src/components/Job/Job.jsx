@@ -1,6 +1,9 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationArrow, faDollarSign } from '@fortawesome/free-solid-svg-icons';
+import {
+  CurrencyDollarIcon,
+  MapIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
 const Job = ({ job,handleAddToCart }) => {
@@ -19,13 +22,21 @@ const Job = ({ job,handleAddToCart }) => {
         <div className="card-body">
           <h2 className="card-title mt-4 text-2xl text-[#474747]">{job_title}</h2>
           <p className="text-xl text-[#757575] mt-2">{brand}</p>
-          <div className="my-4">
-            <button className="btn btn-outline mr-3 textColor hover:textColor border border-indigo-400">{job_time}</button>
-            <button className="btn btn-outline textColor border border-indigo-400">{job_type}</button>
+          <div className="my-4 ">
+            <button className="btn btn-outline mr-3 mb-3 textColor hover:text-indigo-500  border border-indigo-400">{job_time}</button>
+            <button className="btn btn-outline textColor hover:text-indigo-500 border border-indigo-400">{job_type}</button>
           </div>
-          <div>
-            <p className="text-[757575] text-xl"> <span><FontAwesomeIcon className ="mr-3" icon={faLocationArrow} /></span>{location} 
-            <span className="ml-8"><FontAwesomeIcon className="mr-3" icon={faDollarSign} />{job_salary}</span></p>
+          <div className="">
+           <p className="text-[757575] text-xl md:flex ">
+           <span><MapPinIcon className="h-6 w-6" /></span>
+           <span className="">{location}</span>
+           <br /> 
+
+          <span className="ml-8">
+          <CurrencyDollarIcon className="h-6 w-6" /></span>
+           <span> {job_salary}</span>
+            
+            </p>
           </div>
           <div className="card-actions mt-6">
            <Link to={`/job/${id}`}>
