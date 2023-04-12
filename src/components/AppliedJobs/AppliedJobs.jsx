@@ -26,7 +26,7 @@ const AppliedJobs = () => {
 
 
   return (
-    <div className="px-12">
+    <div className="md:px-6">
       
       <h2 className="my-28 text-center text-[#1A1919] text-3xl font-bold">
         Applied Jobs
