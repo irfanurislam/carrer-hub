@@ -6,6 +6,7 @@ my porject sort details
 * 4 applied jobs review two types have filtering button onsite/ remote
 * 5 My assignment pie charts Have  
 * 6 Some Qestions answer have
-* 7 Active link Working   
+* 7 Active link Working  
+* respponsive mobile  
 
 my live website:  https://brilliant-travesseiro-25381c.netlify.app/
