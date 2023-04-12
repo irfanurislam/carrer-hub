@@ -10,7 +10,7 @@ const Banner = () => {
                 <button className='btn btn_all'>Get Started</button>
             </div>
             <div className='h-full'>
-                <img className='object-cover' src={banner} alt="" />
+                <img className='object-cover' src={banner} alt="image" />
             </div>
         </div>
     );

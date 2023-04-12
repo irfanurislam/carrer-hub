@@ -31,16 +31,16 @@ const AppliedJobs = () => {
         Applied Jobs
       </h2>
 
-      <div className="px-10 flex justify-end items-end gap-2 my-4">
+      <div className="px-10 md:flex justify-end items-end gap-2 my-4">
         <button
           onClick={() => handleFilterClick("Remote")}
-          className="btn textColor border border-indigo-300"
+          className="btn mb-3 textColor text-xs md:text-base border border-indigo-300"
         >
           Show Remote Jobs
         </button>
         <button
           onClick={() => handleFilterClick("Onsite")}
-          className="btn textColor border border-indigo-300"
+          className="btn mb-3 textColor text-xs md:text-base border border-indigo-300"
         >
           Show Onsite jobs
         </button>
