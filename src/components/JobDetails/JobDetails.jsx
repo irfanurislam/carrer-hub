@@ -65,10 +65,10 @@ const JobDetails = () => {
     if(!exists){
         // product.brand = 1;
         newCart= [...cart, product]
-      
+       toast('Successfuly Apply 👍')
     }
     else{
-        toast ('already exist')
+        toast ('already Apply 🔥')
     }
 
     setCart(newCart);
