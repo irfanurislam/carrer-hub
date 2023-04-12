@@ -6,6 +6,7 @@ const AppliedJobs = () => {
   // 1st state
 
   // 2no state
+  // this state declare when button click and chnage state
   const cart = useLoaderData();
   const [items, setItems] = useState(cart);
   

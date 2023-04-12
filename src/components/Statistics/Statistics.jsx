@@ -1,6 +1,8 @@
 import React from 'react';
 import { PieChart, Pie, Tooltip } from "recharts";
 const Statistics = () => {
+
+  //pie charts assignment ways
  const assignments  = [
         {
           "id": 1,

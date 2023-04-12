@@ -19,6 +19,8 @@ const JobDetails = () => {
   const data = useLoaderData();
   const { id } = useParams();
   // const dynamicId = parseInt(id);
+
+  //mathcing data find jobs details
   const dynamicId = id;
 
   useEffect(() => {
@@ -30,7 +32,7 @@ const JobDetails = () => {
   }, [setDetails]);
 
 
-  // local storage
+  // local storage part save single data
 
   const [cart, setCart] = useState([])
 
@@ -63,6 +65,7 @@ const JobDetails = () => {
     if(!exists){
         // product.brand = 1;
         newCart= [...cart, product]
+      
     }
     else{
         toast ('already exist')

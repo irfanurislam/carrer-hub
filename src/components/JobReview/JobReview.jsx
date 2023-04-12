@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const JobReview = ({ applyjob}) => {
 
-
+// distructuring apply job 
 
   const { image,id,job_title,brand,job_time,job_type,location,job_salary } = applyjob;
   return (

@@ -9,7 +9,7 @@ const FeaturedJob = () => {
      const [jobs, setJobs] = useState([])
 
      
-
+//see all jobs state set click button
 
 console.log(jobs)
      useEffect(()=>{

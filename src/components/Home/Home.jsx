@@ -5,6 +5,7 @@ import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const Home = () => {
+    //all home parts components 
     return (
         <div className='px-12'>
            <Banner></Banner>

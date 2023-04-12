@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Blog = () => {
+
+   //question parts
     return (
         <div>
            <div className="px-8">
