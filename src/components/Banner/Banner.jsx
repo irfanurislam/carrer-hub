@@ -9,8 +9,8 @@ const Banner = () => {
                 <p className='px-2 my-6 text-lg font-normal text-[#757575;'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                 <button className='btn btn_all'>Get Started</button>
             </div>
-            <div className=''>
-                <img className='h-48 md:h-full' src={banner} alt="" />
+            <div className='h-full'>
+                <img className='object-cover' src={banner} alt="" />
             </div>
         </div>
     );

@@ -41,7 +41,7 @@ const Header = () => {
               </Link>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case font-bold text-3xl text-[#1A1919]">
+          <a className="btn btn-ghost normal-case font-bold text-base md:text-2xl text-[#1A1919]">
             FindJob
           </a>
         </div>
@@ -54,9 +54,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/applyjob">
+       
+        <Link to="/applyjob">
             <a className="btn btn_all">Start Applying</a>
-          </Link>
+           </Link>
         </div>
       </div>
     </nav>
